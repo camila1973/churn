@@ -1,0 +1,40 @@
+# Entornos virtuales
+.env/
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+
+# Archivos de configuración
+*.env
+*.pem
+
+# Jupyter y salidas
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.log
+
+# Archivos grandes y temporales
+*.csv
+*.tsv
+*.gz
+*.zip
+*.parquet
+
+# Archivos de SageMaker
+*.sagemaker/
+output/
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.crc
+*.tfplan
+
+# Visual Studio Code
+.vscode/
+
+# Datos personalizados
+datasets/
